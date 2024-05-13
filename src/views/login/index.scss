@@ -1,0 +1,44 @@
+.header{
+  width: 100vw;
+  height: 100px;
+  background: white;
+  .header_content{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    span{
+      font-size: 20px;
+    }
+  }
+}
+.content{
+  width: 100vw;
+  height: 650px;
+  background-image: url(../../assets/images/bj.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  .content_card{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    .cart_card{
+      width: 400px;
+      height: 300px;
+      position: absolute;
+      right: 0;
+      top: 100px;
+    }
+  }
+}
+.footer{
+  width: 100vw;
+  height: calc(100vh - 100px - 700px);
+  .footer_content{
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
