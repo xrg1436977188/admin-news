@@ -11,7 +11,7 @@ npm install
 npm start 
 
 ##  后台仓库地址
-[后台接口地址](https://gitee.com/xu-ronggui/message_back)
+[后台接口地址](https://github.com/xrg1436977188/back-news)
 
 部分前端页面展示如下：
 
